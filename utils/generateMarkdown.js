@@ -11,7 +11,7 @@ function renderLicenseLink(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
   
-  # $(data.title)
+  # ${data.title}
 
   ## Table of Contents
   - [Description](#description)
@@ -22,19 +22,19 @@ function generateMarkdown(data) {
   - [Questions](#questions)
 
 ### Description
-  $(data.description)
+  ${data.description}
 
 ### Installation
-  $(data.installation)
+  ${data.installation}
 
 ### Usage
- $(data.usage)
+ ${data.usage}
 
 ### Contributing
- $(data.contributing)
+ ${data.contributing}
 
 ### Tests
-  $(data.test)
+  ${data.test}
 
 ### Questions
   If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [github.com/${data.github}](https://github.com/${data.github}/).
