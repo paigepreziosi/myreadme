@@ -53,8 +53,8 @@ function generateMarkdown(data) {
 ### Questions
   If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [github.com/${data.github}](https://github.com/${data.github}/).
 
-${data.license} !== 'None' ? '### License' : ''}
-${data.license} !== 'None' ? renderLicenseLink(data.license) : ''}
+${data.license !== 'None' ? '### License' : ''}
+${data.license !== 'None' ? renderLicenseBadge(data.license) : ''}
 `;
 }
 
