@@ -51,11 +51,6 @@ const questions = [
     name: 'github',
 },
 {
-    type: 'input',
-    message: 'What is your e-mail address?',
-    name: 'email',
-},
-{
     type: 'list',
     message: 'Please select a license.',
     name: 'license',
@@ -64,10 +59,18 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>
+    err ? console.log(err) : console.log('Your README.md file has been created!')
+  );
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then((answers) => {
+    writeToFile('README.md', generateMarkdown(answers));
+    });
+}
 
 // Function call to initialize app
 init();
