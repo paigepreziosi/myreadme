@@ -64,6 +64,6 @@ N/A
 
 ## Contact
 
-Name: Paige Preziosi
-E-mail: PVPreziosi@hotmail.com
+Name: Paige Preziosi <br>
+E-mail: PVPreziosi@hotmail.com <br>
 GitHub: https://github.com/paigepreziosi
