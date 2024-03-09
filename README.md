@@ -1,3 +1,7 @@
+<img width="915" alt="Screenshot 2024-03-09 at 1 33 47 PM" src="https://github.com/paigepreziosi/myreadmegenerator/assets/151070992/6d577e87-76a6-4e8b-8b7e-86981c7be87d">
+<img width="931" alt="Screenshot 2024-03-09 at 1 33 37 PM" src="https://github.com/paigepreziosi/myreadmegenerator/assets/151070992/81e930b2-5cb5-45d6-a7d3-ea978c06ea5b">
+
+
 # My README Generator
 
 ## Table of Contents
